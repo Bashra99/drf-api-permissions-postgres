@@ -1,4 +1,4 @@
-# LAB - Class 25
+# LAB - Class 26
 
 ##  drf-api-permissions-postgres
 
