@@ -9,7 +9,7 @@ Author: Bashar Telfah
 ### Setup
 -  python 3.10.7
 
-## [Pull requests]()
+## [Pull requests](https://github.com/Bashra99/drf-api-permissions-postgres/pulls?q=is%3Apr+is%3Aclosed)
 
 
 #### run the server
