@@ -10,7 +10,7 @@ from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
 # Create your views here.
 
-class AOTListView(ListAPIView):
+class AOTListView(ListCreateAPIView):
     queryset = AOT.objects.all()
     serializer_class= AOTSerializer
     permission_classes=[IsAuthenticatedOrReadOnly]
@@ -22,7 +22,7 @@ class AOTDetailView(RetrieveUpdateDestroyAPIView):
     serializer_class= AOTSerializer
     permission_classes=[IsOwnerOrReadOnly]
 
-class TitanListView(ListAPIView):
+class TitanListView(ListCreateAPIView):
     queryset = Titan.objects.all()
     serializer_class= TitanSerializer
     permission_classes=[IsAuthenticatedOrReadOnly]
